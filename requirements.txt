@@ -1,0 +1,3 @@
+#add your packages that you install here
+requests==2.32.4
+pandas==2.2.2
