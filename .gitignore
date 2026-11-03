@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+#apis
+.env
+*.key
+
+#data that stay out of the code
+data/
+raw/
+test_output/
+Station_Rainfall_CSVs/
+*.tif
+*.shp
+*.gpkg
+*.zip
+
+#Edits and Os
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
