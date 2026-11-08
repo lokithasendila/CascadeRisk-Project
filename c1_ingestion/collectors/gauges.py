@@ -11,9 +11,9 @@ import requests
 #main things
 API_URL = ("https://services3.arcgis.com/J7ZFXmR8rSmQ3FGf/arcgis/rest/services/"
            "gauges_2_view/FeatureServer/0/query")
-PAGE_SIZE = 2000                            # records per request
-MAX_ATTEMPTS = 3                            # UC01: retry a failed request up to three times
-SL_OFFSET = timedelta(hours=5, minutes=30)  # UTC -> Sri Lanka time
+PAGE_SIZE = 1000                            #records per request
+MAX_ATTEMPTS = 3                            #retry a failed request up to three times
+SL_OFFSET = timedelta(hours=5, minutes=30)  #UTC Sri Lanka time
 DROP_COLS = ["globalid", "Creator", "EditDate", "Editor"]
 
 
